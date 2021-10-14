@@ -280,7 +280,7 @@ open class Checkbox: UIControl {
     private func tickCheckmark(rect: CGRect) {
         let bezierPath = UIBezierPath()
         bezierPath.move(to: CGPoint(x: rect.minX + 0.04688 * rect.width, y: rect.minY + 0.63548 * rect.height))
-        bezierPath.addLine(to: CGPoint(x: rect.minX + 0.34896 * rect.width, y: rect.minY + 0.95161 * rect.height))
+        bezierPath.addLine(to: CGPoint(x: rect.minX + 0.34896 * rect.width, y: rect.minY + 0.93161 * rect.height))
         bezierPath.addLine(to: CGPoint(x: rect.minX + 0.95312 * rect.width, y: rect.minY + 0.04839 * rect.height))
         checkmarkColor.setStroke()
         bezierPath.lineWidth = checkmarkSize * 2
